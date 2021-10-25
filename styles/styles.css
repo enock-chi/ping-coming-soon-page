@@ -1,0 +1,92 @@
+body{
+  position: relative;
+  padding: 40px;
+}
+
+#img img{
+  position: relative;
+  width: 800px;
+  height: 400px;
+  left: 20%;
+  top: 75px;
+}
+
+#logo{
+     position: relative;
+     left: 45%;
+}
+
+#logo img{
+  height: 20px;
+}
+
+#summary{
+  position: relative;
+  left: 40%;
+  font-family: Libre Franklin;
+}
+
+#summary h1{
+  position: relative;
+ font-weight: 100;
+ left: -4%;
+}
+
+#summary h1 span{
+  font-weight: bold;
+  position: relative;
+  
+ }
+
+#summary p{
+    position: relative;
+    left: 1%;
+}
+
+#search-engine{
+  position: relative;
+  top: 40px;
+  left: 30%;
+  
+}
+
+#search-engine input{
+  width: 300px;
+  height: 15px;
+  border-radius: 50px;
+  padding: 20px ;
+  margin-right: 10px;
+  border-color: hsl(0, 0%, 59%);
+
+  
+}
+
+#search-engine button{
+  height: 58px;
+  width: 150px;
+  border-radius: 40px;
+  border-style: none;
+  background-color: hsl(223, 87%, 63%);
+  color: white;
+  
+}
+
+#search-engine p{
+  position: relative;
+  color: red;
+  left: 1%;
+  margin-top: 2px;
+  display: none;
+}
+
+
+#social-media{
+  position: relative;
+  display: flex;
+  left: 45%;
+  top: 70px;
+}
+
+#social-media i{
+  margin: 10px;
+}
